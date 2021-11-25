@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Slab:wght@200&family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Slab:wght@200&family=Sora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  background-color: #738992;
+  padding: 0;
+}
+header nav ul {
+  text-align: center;
+}
+
+.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.principal {
+  background-color: #6c757d;
+}
+.principal h1 {
+  text-align: center;
+  font-family: "Sora", sans-serif;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+.principal h4 {
+  font-family: "Poppins", sans-serif;
+  color: #444343;
+  font-size: 25px;
+  text-align: center;
+}
+.principal p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin-top: 1em;
+  font-size: 40px;
+  text-align: justify;
+}
+
+.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.nosotros h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Sora", sans-serif;
+  color: white;
+  padding: 30px;
+}
+.nosotros p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 35px;
+  padding: 30px;
+  font-size: 30px;
+  text-align: justify;
+}
+.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.trabajo h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Sora", sans-serif;
+  color: white;
+}
+.trabajo p {
+  font-size: 30px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  justify-content: "center";
+}
+.productos .boton-producto, .nosotros .boton-nosotros, .trabajo .boton-trabajo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.productos .b-producto, .nosotros .informacion, .trabajo .b-trabajos {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.productos h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Sora", sans-serif;
+  color: black;
+}
+.productos p {
+  font-size: 30px;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  justify-content: "center";
+}
+.nosotros .boton-nosotros, .trabajo .boton-trabajo, .productos .boton-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.nosotros .informacion, .trabajo .b-trabajos, .productos .b-producto {
+  font-family: "Poppins", sans-serif;
+  background-color: #787e80;
+  font-size: 30px;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-color: #f8f7f6;
+  margin: 30px 30px;
+}
+
+.view-in, .view-out {
+  list-style: none;
+}
+
+.product-grid {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h2-titulo {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Sora", sans-serif;
+}
+
+.p-densifique {
+  text-align: justify;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  margin: 30px;
+}
+
+.product-subtitle {
+  font-size: 20px;
+}
+
+.product-name {
+  font-size: 20px;
+}
+
+.product-description {
+  font-size: 15px;
+  margin-bottom: 10em;
+}
+
+/*# sourceMappingURL=style.css.map */

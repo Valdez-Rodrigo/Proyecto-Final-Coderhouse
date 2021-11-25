@@ -1,0 +1,31 @@
+@import '../base/variables';
+
+.view-in, .view-out{
+    list-style: none;
+}
+.product-grid{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2-titulo{
+    text-align:$text-titulo;
+    font-size: $fs-titulo;
+    font-family: $ff-titulo;
+}
+.p-densifique{
+    text-align: $text-parrafo;
+    font-size: $fs-parrafo;
+    font-family: $ff-parrafo;
+    margin: 30px;
+}
+.product-subtitle{
+    font-size: 20px;
+}
+.product-name{
+    font-size: 20px;
+}
+.product-description{
+    font-size: 15px;
+    margin-bottom: 10em;
+}

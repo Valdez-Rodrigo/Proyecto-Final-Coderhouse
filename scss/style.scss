@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto&family=Roboto+Slab:wght@200&family=Sora&display=swap');
+@import '../scss/componentes/header';
+@import '../scss/componentes/seccion-principal';
+@import '../scss/componentes/seccion-nosotros';
+@import '../scss/base/variables';
+@import '../scss/componentes/seccion-trabajo';
+@import '../scss/componentes/seccion-productos';
+@import '../scss/componentes/pagina-productos'

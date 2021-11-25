@@ -1,0 +1,26 @@
+@import '../base/variables';
+
+.nosotros{
+        h2{
+            text-align: $text-titulo;
+            font-size: $fs-titulo;
+            font-family: $ff-titulo;
+            color: $color1;
+            padding: 30px;
+        }
+            p{
+                font-family: $ff-parrafo; 
+                color: $color1;
+                margin-top: 35px;
+                padding: 30px;
+                font-size: $fs-parrafo;
+                text-align: $text-parrafo;
+            }
+                .boton-nosotros{
+                    @extend %boton;
+                }
+                    .informacion{
+                        @extend %boton-contenido;
+                    }
+
+}

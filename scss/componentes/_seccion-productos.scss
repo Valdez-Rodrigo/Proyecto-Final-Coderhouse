@@ -1,0 +1,23 @@
+@import '../base/variables';
+
+.productos{
+    h2{
+        text-align: $text-titulo;
+        font-size: $fs-titulo;
+        font-family: $ff-titulo;
+        color: $color2;
+    }
+        p{
+            font-size: $fs-parrafo;
+            text-align: $text-parrafo;
+            font-family: $ff-parrafo;
+            color: $color2;
+            justify-content: $jc-parrafo;
+        }
+            .boton-producto{
+                @extend %boton;
+            }
+                .b-producto{
+                    @extend %boton-contenido;
+                }
+}

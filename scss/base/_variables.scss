@@ -1,0 +1,41 @@
+//titulos
+$text-titulo:center;
+$fs-titulo: 50px;
+$ff-titulo:'Sora', sans-serif;
+
+//parrafos
+$text-parrafo:justify;
+$fs-parrafo: 30px;
+$ff-parrafo: 'Roboto', sans-serif;
+$jc-parrafo: 'center';
+
+//botones
+$jc-button:center;
+$ai-button:center;
+$td-button:none;
+$color-button:black;
+$colorhover-button: white;
+$transicionhover-button: all 3s;
+$coloractive-button: red;
+
+//colores
+$color1: white;
+$color2: black;
+
+//extend
+%boton{
+    display: flex;
+    justify-content: $jc-button;
+    align-items: $ai-button;
+    text-decoration: $td-button;
+    color: $color-button;
+}
+%boton-contenido{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(120, 126, 128);
+    font-size: 30px;
+    padding: 20px 35px; 
+    border-radius: 20px;
+    border-color:rgb(248, 247, 246);
+    margin: 30px 30px;
+}
