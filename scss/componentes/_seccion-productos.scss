@@ -1,27 +1,47 @@
 @import '../base/variables';
 
 
-.productos{
-    h2{
-        text-align: $text-titulo;
-        font-size: $fs-titulo;
-        font-family: $ff-titulo;
-        color: $color2;
-        padding: 30px;
-    }
-        p{
-            font-size: $fs-parrafo;
-            text-align: $text-parrafo;
-            font-family: $ff-parrafo;
-            color: $color2;
-            margin-top: 35px;
+#productos{
+    position: relative;
+    background-image: url(../src/Multimedia/img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+#productos .background-overlay{
+    position: absolute;
+    background: rgba(10, 10, 10, 0.582);
+    top: 0;
+    left: o;
+    width: 100%;
+    height: 100%;
+}
+#productos{
+        h2{
+            text-align: $text-titulo;
+            font-size: $fs-titulo;
+            font-family: $ff-titulo;
+            color: $color1;
             padding: 30px;
-            justify-content: $jc-parrafo;
         }
-            .boton-producto{
-                @extend %boton;
+            p{
+                font-family: $ff-parrafo; 
+                color: $color1;
+                margin-top: 35px;
+                padding: 30px;
+                font-size: $fs-parrafo;
+                text-align: $text-parrafo;
             }
-                .b-producto{
-                    @extend %boton-contenido;
-                }
+                    .productos{
+                        @extend %boton-contenido;
+                        text-decoration: none;
+                        color: black;
+                    }
+                    .productos:hover{
+                        @extend %boton;
+                    }
+                    .productos:active{
+                        color: $coloractive-button;
+                    }
+
 }

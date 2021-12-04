@@ -10,10 +10,6 @@ $ff-parrafo: 'Roboto', sans-serif;
 $jc-parrafo: 'center';
 
 //botones
-$jc-button:center;
-$ai-button:center;
-$td-button:none;
-$color-button:black;
 $colorhover-button: white;
 $transicionhover-button: all 3s;
 $coloractive-button: red;
@@ -24,11 +20,8 @@ $color2: black;
 
 //extend
 %boton{
-    display: flex;
-    justify-content: $jc-button;
-    align-items: $ai-button;
-    text-decoration: $td-button;
-    color: $color-button;
+    color: $colorhover-button;
+    transition: $transicionhover-button;
 }
 %boton-contenido{
     font-family: 'Poppins', sans-serif;
@@ -37,5 +30,5 @@ $color2: black;
     padding: 20px 35px; 
     border-radius: 20px;
     border-color:rgb(248, 247, 246);
-    margin: 30px 30px;
+    // margin: 30px 30px;
 }

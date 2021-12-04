@@ -32,11 +32,16 @@
                 font-size: $fs-parrafo;
                 text-align: $text-parrafo;
             }
-                .boton-nosotros{
-                   
-                }
-                    .informacion{
-                        @extend %boton-contenido;
-                    }
+            .informacion{
+                @extend %boton-contenido;
+                text-decoration: none;
+                color: black;
+            }
+            .informacion:hover{
+                @extend %boton;
+            }
+            .informacion:active{
+                color: $coloractive-button;
+            }
 
 }

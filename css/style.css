@@ -18,22 +18,18 @@ header nav ul {
   text-align: center;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: black;
+#productos .productos:hover, #trabajo .trabajo:hover, #nosotros .informacion:hover {
+  color: white;
+  transition: all 3s;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
+#productos .productos, #trabajo .trabajo, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
 .principal {
@@ -59,22 +55,18 @@ header nav ul {
   text-align: justify;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: black;
+#productos .productos:hover, #trabajo .trabajo:hover, #nosotros .informacion:hover {
+  color: white;
+  transition: all 3s;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
+#productos .productos, #trabajo .trabajo, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
 #nosotros {
@@ -109,108 +101,148 @@ header nav ul {
   font-size: 30px;
   text-align: justify;
 }
-.productos .boton-producto, .trabajo .boton-trabajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#nosotros .informacion {
   text-decoration: none;
   color: black;
 }
+#nosotros .informacion:active {
+  color: red;
+}
 
-.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
+#productos .productos:hover, #trabajo .trabajo:hover, #nosotros .informacion:hover {
+  color: white;
+  transition: all 3s;
+}
+
+#productos .productos, #trabajo .trabajo, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: black;
+#productos .productos:hover, #trabajo .trabajo:hover, #nosotros .informacion:hover {
+  color: white;
+  transition: all 3s;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
+#productos .productos, #trabajo .trabajo, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
-.trabajo h2 {
+#trabajo {
+  position: relative;
+  background-image: url(../src/Multimedia/img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+#trabajo .background-overlay {
+  position: absolute;
+  background: rgba(45, 45, 46, 0.7);
+  top: 0;
+  left: o;
+  width: 100%;
+  height: 100%;
+}
+
+#trabajo h2 {
   text-align: center;
   font-size: 50px;
   font-family: "Sora", sans-serif;
   color: white;
   padding: 30px;
 }
-.trabajo p {
-  font-size: 30px;
-  text-align: justify;
+#trabajo p {
   font-family: "Roboto", sans-serif;
   color: white;
   margin-top: 35px;
   padding: 30px;
-  justify-content: "center";
+  font-size: 30px;
+  text-align: justify;
 }
-.productos .boton-producto, .trabajo .boton-trabajo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#trabajo .trabajo {
   text-decoration: none;
   color: black;
 }
+#trabajo .trabajo:active {
+  color: red;
+}
 
-.productos .b-producto, #nosotros .informacion, .trabajo .b-trabajos {
+#productos .productos:hover, #nosotros .informacion:hover, #trabajo .trabajo:hover {
+  color: white;
+  transition: all 3s;
+}
+
+#productos .productos, #nosotros .informacion, #trabajo .trabajo {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
-.productos h2 {
+#productos {
+  position: relative;
+  background-image: url(../src/Multimedia/img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+#productos .background-overlay {
+  position: absolute;
+  background: rgba(10, 10, 10, 0.582);
+  top: 0;
+  left: o;
+  width: 100%;
+  height: 100%;
+}
+
+#productos h2 {
   text-align: center;
   font-size: 50px;
   font-family: "Sora", sans-serif;
-  color: black;
+  color: white;
   padding: 30px;
 }
-.productos p {
-  font-size: 30px;
-  text-align: justify;
+#productos p {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: white;
   margin-top: 35px;
   padding: 30px;
-  justify-content: "center";
+  font-size: 30px;
+  text-align: justify;
 }
-.trabajo .boton-trabajo, .productos .boton-producto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#productos .productos {
   text-decoration: none;
   color: black;
 }
+#productos .productos:active {
+  color: red;
+}
 
-#nosotros .informacion, .trabajo .b-trabajos, .productos .b-producto {
+#nosotros .informacion:hover, #trabajo .trabajo:hover, #productos .productos:hover {
+  color: white;
+  transition: all 3s;
+}
+
+#nosotros .informacion, #trabajo .trabajo, #productos .productos {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
   padding: 20px 35px;
   border-radius: 20px;
   border-color: #f8f7f6;
-  margin: 30px 30px;
 }
 
 .view-in, .view-out {
