@@ -1,17 +1,21 @@
 @import '../base/variables';
 
+
 .trabajo{
     h2{
         text-align: $text-titulo;
         font-size: $fs-titulo;
         font-family: $ff-titulo;
         color: $color1;
+        padding: 30px;
     }
         p{
             font-size: $fs-parrafo;
             text-align: $text-parrafo;
             font-family: $ff-parrafo;
             color: $color1;
+            margin-top: 35px;
+            padding: 30px;
             justify-content: $jc-parrafo;
         }
             .boton-trabajo{

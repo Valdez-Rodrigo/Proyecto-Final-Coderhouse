@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+header .navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
 header nav {
   background-color: #738992;
   padding: 0;
@@ -14,7 +18,7 @@ header nav ul {
   text-align: center;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+.productos .boton-producto, .trabajo .boton-trabajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +26,7 @@ header nav ul {
   color: black;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
@@ -55,7 +59,7 @@ header nav ul {
   text-align: justify;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+.productos .boton-producto, .trabajo .boton-trabajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +67,7 @@ header nav ul {
   color: black;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
@@ -73,14 +77,31 @@ header nav ul {
   margin: 30px 30px;
 }
 
-.nosotros h2 {
+#nosotros {
+  position: relative;
+  background-image: url(../src/Multimedia/img/fondo7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+}
+
+#nosotros .background-overlay {
+  position: absolute;
+  background: rgba(45, 45, 46, 0.7);
+  top: 0;
+  left: o;
+  width: 100%;
+  height: 100%;
+}
+
+#nosotros h2 {
   text-align: center;
   font-size: 50px;
   font-family: "Sora", sans-serif;
   color: white;
   padding: 30px;
 }
-.nosotros p {
+#nosotros p {
   font-family: "Roboto", sans-serif;
   color: white;
   margin-top: 35px;
@@ -88,7 +109,7 @@ header nav ul {
   font-size: 30px;
   text-align: justify;
 }
-.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+.productos .boton-producto, .trabajo .boton-trabajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +117,7 @@ header nav ul {
   color: black;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
@@ -106,7 +127,7 @@ header nav ul {
   margin: 30px 30px;
 }
 
-.productos .boton-producto, .trabajo .boton-trabajo, .nosotros .boton-nosotros {
+.productos .boton-producto, .trabajo .boton-trabajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +135,7 @@ header nav ul {
   color: black;
 }
 
-.productos .b-producto, .trabajo .b-trabajos, .nosotros .informacion {
+.productos .b-producto, .trabajo .b-trabajos, #nosotros .informacion {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
@@ -129,15 +150,18 @@ header nav ul {
   font-size: 50px;
   font-family: "Sora", sans-serif;
   color: white;
+  padding: 30px;
 }
 .trabajo p {
   font-size: 30px;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   color: white;
+  margin-top: 35px;
+  padding: 30px;
   justify-content: "center";
 }
-.productos .boton-producto, .nosotros .boton-nosotros, .trabajo .boton-trabajo {
+.productos .boton-producto, .trabajo .boton-trabajo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +169,7 @@ header nav ul {
   color: black;
 }
 
-.productos .b-producto, .nosotros .informacion, .trabajo .b-trabajos {
+.productos .b-producto, #nosotros .informacion, .trabajo .b-trabajos {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;
@@ -160,15 +184,18 @@ header nav ul {
   font-size: 50px;
   font-family: "Sora", sans-serif;
   color: black;
+  padding: 30px;
 }
 .productos p {
   font-size: 30px;
   text-align: justify;
   font-family: "Roboto", sans-serif;
   color: black;
+  margin-top: 35px;
+  padding: 30px;
   justify-content: "center";
 }
-.nosotros .boton-nosotros, .trabajo .boton-trabajo, .productos .boton-producto {
+.trabajo .boton-trabajo, .productos .boton-producto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,7 +203,7 @@ header nav ul {
   color: black;
 }
 
-.nosotros .informacion, .trabajo .b-trabajos, .productos .b-producto {
+#nosotros .informacion, .trabajo .b-trabajos, .productos .b-producto {
   font-family: "Poppins", sans-serif;
   background-color: #787e80;
   font-size: 30px;

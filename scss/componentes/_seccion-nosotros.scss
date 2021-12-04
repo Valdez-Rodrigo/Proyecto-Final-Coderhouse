@@ -1,6 +1,22 @@
 @import '../base/variables';
 
-.nosotros{
+
+#nosotros{
+    position: relative;
+    background-image: url(../src/Multimedia/img/fondo7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+#nosotros .background-overlay{
+    position: absolute;
+    background: rgba(45, 45, 46, 0.7);
+    top: 0;
+    left: o;
+    width: 100%;
+    height: 100%;
+}
+#nosotros{
         h2{
             text-align: $text-titulo;
             font-size: $fs-titulo;
@@ -17,7 +33,7 @@
                 text-align: $text-parrafo;
             }
                 .boton-nosotros{
-                    @extend %boton;
+                   
                 }
                     .informacion{
                         @extend %boton-contenido;
