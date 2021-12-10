@@ -1,0 +1,19 @@
+@media screen and (min-width: 780px) and (max-width: 1024px){
+
+}
+@media screen and (min-width: 480px) and (max-width: 780p){
+
+}
+@media screen and (max-width: 480px){
+    #nosotros{
+        .titulo-nos{
+            font-size: 10px;
+        }
+        .parrafo-nos{
+            font-size: x-small;
+        }
+        .informacion{
+            font-size: x-small;
+        }
+    }
+}
